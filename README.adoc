@@ -1,4 +1,6 @@
-# Pure-Javascript-Functions
+== Pure Javascript Functions
 
-Just creating pure functions that would help developers. 
-Just download the file you need and use it. :) 
+TIP: Just creating pure functions that would help developers. +
+As of now just download the file you need and use it. :)  +
+I will create these as packages soon.
+

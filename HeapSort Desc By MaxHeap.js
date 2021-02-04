@@ -1,4 +1,21 @@
 
+// does heap sorting
+function HeapSort(a) {
+    let sorted = [];
+
+    while (a.length > 0) {
+        // do max heap
+        GetMaxHeap(a);
+
+        // swap last element to first and drop the root as it is the biggest one.
+        swap(a, 0, a.length - 1);
+
+        sorted.push(a.pop());
+    }
+    return sorted;
+}
+
+// use this to get max heap of an given array.
 function GetMaxHeap(a) {
     for (let i = Math.floor(a.length / 2) - 1; i >= 0; i--) {
         maxHeapIt(a, a.length, i);
@@ -31,5 +48,6 @@ function swap(a, i, j) {
 
 
 let givenTree = [15, 5, 20, 1, 17, 10, 30];
-GetMaxHeap(givenTree);
-console.log(givenTree);
+let sorted = HeapSort(givenTree);
+
+console.log('sorted', sorted);

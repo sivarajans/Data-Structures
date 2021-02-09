@@ -1,22 +1,25 @@
-
-
 function HeapSort(a) {
     let sorted = [];
 
-    while (a.length > 0) {
-        // do min heap
-        GetMinHeap(a);
+    // first time to do min heap invarient
+    // last parent index is n/2 - 1. doing for all parents here.
+    GetMinHeap(a, Math.floor(a.length / 2) - 1);
 
+    while (a.length > 0) {
+        
         // swap last element to first and drop the root as it is the smallest one.
         swap(a, 0, a.length - 1);
 
         sorted.push(a.pop());
+
+        // do min heap only for first node as it is replaced with last node
+        GetMinHeap(a, 0);
     }
     return sorted;
 }
 
-function GetMinHeap(a) {
-    for (let i = Math.floor(a.length / 2) - 1; i >= 0; i--) {
+function GetMinHeap(a, parentIndex) {
+    for (let i = parentIndex; i >= 0; i--) {
         minHeapIt(a, a.length, i);
     }
 }

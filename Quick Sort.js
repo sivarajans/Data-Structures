@@ -40,8 +40,6 @@ function swap(a, i , j) {
 }
 
 
-
-
 //testing
 let arg = [10, 2, 20, 5, 1, 2001, 3];
 console.log('given array', arg);

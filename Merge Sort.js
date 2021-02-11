@@ -1,3 +1,6 @@
+/*
+Merge Sort - sorts an array by dividing each element as single element recursively and join them together and swapping at right postion.
+*/
 function mergeSort(a, lb, ub) {
    if (lb < ub) { //stop when index are equal.
        let mid = Math.floor((lb + ub) / 2);

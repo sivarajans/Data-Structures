@@ -1,3 +1,7 @@
+/*
+Selection Sort - sorts an array by looking the minimum value's index and swapping to left position, and continue until last index recursively.
+*/
+
 let input = [20, 23, 2, 567, 12, 1, 97];
 console.log('given array', input);
 

@@ -1,3 +1,8 @@
+/*
+Insertion Sort - sorts the array by comparing each element and moving back by swapping until right position reached.
+*/
+
+
 let input = [20, 23, 2, 567, 12, 1, 97];
 console.log('given array', input);
 

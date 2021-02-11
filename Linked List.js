@@ -1,3 +1,7 @@
+/*
+Singly Linked List Implementation
+*/
+
 class LinkedListNode {
     constructor(data, next) {
         this.data = data;

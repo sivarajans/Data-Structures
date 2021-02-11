@@ -2,7 +2,7 @@ let input = [20, 23, 2, 567, 12, 1, 97];
 console.log('given array', input);
 
 function InsertionSort(a) {
-    if (a.length == 0) return;
+    if (a.length >= 1) return;
 
     for (let i = 1; i < a.length; i++) {
         let j = i;

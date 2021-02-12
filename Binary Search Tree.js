@@ -21,7 +21,7 @@ class BinarySearchTree {
 
         if (array)
             for (let i = 0; i < array.length; i++)
-                this.add(new TreeNode(array[i]));
+                this.addByValue(array[i]);
     }
 
     throwIfInvalidNode(node) {
@@ -153,3 +153,4 @@ console.log('23 added, 9 removed', JSON.parse(JSON.stringify(tree)));
 tree.addByValue(1);
 tree.removeByValue(11);
 console.log('1 added, 11 removed', JSON.parse(JSON.stringify(tree)));
+

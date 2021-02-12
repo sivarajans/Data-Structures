@@ -97,15 +97,15 @@ class BinarySearchTree {
             root.left = this._removeFromTree(root.left, node);
         }
         else if (root.value == node.value) {
-            if (root.left == undefined && root.right == undefined)
+            // element to be removed as it matches.
+            
+            if (root.left == undefined && root.right == undefined) // no children
                 return undefined;
-            else if (root.right == undefined)
+            else if (root.right == undefined) // only left child
                 return root.left;
-            else if (root.left == undefined)
+            else if (root.left == undefined) // only right child
                 return root.right;
-            else {
-                // element to be removed as it matches.
-
+            else { // have both child,
                 // find greatest from left to replace.
                 let greatest = this.findGreatestFromLeft(root);
                 this._removeFromTree(root, greatest);

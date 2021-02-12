@@ -1,6 +1,6 @@
 /*
 Fenwick Tree - general tree used for range queries.
-it is really works with bits. 
+it works with bits for positional sum storage. 
 
 the highest element responsible can be found using 
 Bits(n) + Least Significant Bits(n);

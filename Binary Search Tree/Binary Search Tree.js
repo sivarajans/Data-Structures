@@ -4,7 +4,7 @@ satisfies that
     a. left node of parent less that it
     b. right node of parent greater than it.
 */
-class TreeNode {
+export class TreeNode {
     constructor(value) {
         this.value = value;
         this.left = undefined;
@@ -12,7 +12,7 @@ class TreeNode {
     }
 }
 
-class BinarySearchTree {
+export default class BinarySearchTree {
 
     // using given array bst can be initialized.
     constructor(array) {
@@ -98,7 +98,7 @@ class BinarySearchTree {
         }
         else if (root.value == node.value) {
             // element to be removed as it matches.
-            
+
             if (root.left == undefined && root.right == undefined) // no children
                 return undefined;
             else if (root.right == undefined) // only left child
@@ -142,15 +142,4 @@ class BinarySearchTree {
     }
 }
 
-let tree = new BinarySearchTree([5, 9, 3, 2, 4, 7, 8, 6, 11, 13, 18]);
-
-console.log('initial', JSON.parse(JSON.stringify(tree)));
-
-tree.add(new TreeNode(23));
-tree.remove(tree.root.right); 
-console.log('23 added, 9 removed', JSON.parse(JSON.stringify(tree)));
-
-tree.addByValue(1);
-tree.removeByValue(11);
-console.log('1 added, 11 removed', JSON.parse(JSON.stringify(tree)));
 

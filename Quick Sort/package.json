@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Quick sort impelementation",
   "main": "Quick Sort.js",
+  "type": "module",
   "scripts": {
     "test": "test.js"
   },

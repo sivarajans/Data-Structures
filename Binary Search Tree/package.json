@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Binary search tree",
   "main": "Binary Search Tree.js",
+  "type": "module",
   "scripts": {
     "test": "test.js"
   },

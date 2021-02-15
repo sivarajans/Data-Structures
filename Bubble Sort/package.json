@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Bubble sort",
   "main": "Bubble Sort.js",
+  "type": "module",
   "scripts": {
     "test": "test.js"
   },

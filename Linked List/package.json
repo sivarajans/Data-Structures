@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Linked list implementation in javascript",
   "main": "Linked List.js",
+  "type": "module",
   "scripts": {
     "test": "test.js"
   },

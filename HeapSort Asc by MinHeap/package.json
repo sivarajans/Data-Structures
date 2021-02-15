@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Heap sort ascending",
   "main": "HeapSort Asc by MinHeap.js",
+  "type": "module",
   "scripts": {
     "test": "test.js"
   },

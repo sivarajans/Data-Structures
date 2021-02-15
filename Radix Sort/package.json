@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Radix sort impelementation",
   "main": "Radix Sort.js",
+  "type": "module",
   "scripts": {
     "test": "test.js"
   },

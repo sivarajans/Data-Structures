@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Heap sort descending",
   "main": "HeapSort Desc by MaxHeap.js",
+  "type": "module",
   "scripts": {
     "test": "test.js"
   },

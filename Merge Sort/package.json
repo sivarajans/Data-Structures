@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Merge sort impelementation",
   "main": "Merge Sort.js",
+  "type": "module",
   "scripts": {
     "test": "test.js"
   },

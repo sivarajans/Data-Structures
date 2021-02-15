@@ -3,6 +3,7 @@
   "version": "1.0.3",
   "description": "queue implementation in javascript using array",
   "main": "Queue.js",
+  "type": "module",
   "scripts": {
     "test": "test.js"
   },

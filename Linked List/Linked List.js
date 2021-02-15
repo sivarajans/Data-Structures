@@ -2,14 +2,14 @@
 Singly Linked List Implementation
 */
 
-class LinkedListNode {
+export class LinkedListNode {
     constructor(data, next) {
         this.data = data;
         this.next = next;
     }
 }
 
-class LinkedList {
+export default class LinkedList {
     constructor() {
         this.head = null;
         this.tail = null;

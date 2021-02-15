@@ -13,7 +13,7 @@ Child-1 of parent = 2i + 1 -- here i is index (0 based)
 Child-2 of parent = 2i + 2
 */
 
-function HeapSort(a) {
+export default function HeapSortDesc(a) {
     let sorted = [];
 
     
@@ -40,7 +40,6 @@ function GetMaxHeap(a, parentIndex) {
     }
 }
 
-
 function maxHeapIt(a, n, i) {
     let max = i;
     let left = Math.floor(i * 2) + 1; //left child
@@ -63,9 +62,3 @@ function swap(a, i, j) {
     a[i] = a[j];
     a[j] = temp;
 }
-
-
-let givenTree = [15, 5, 20, 1, 17, 10, 30];
-let sorted = HeapSort(givenTree);
-
-console.log('sorted', sorted);

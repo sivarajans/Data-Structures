@@ -1,0 +1,16 @@
+{
+  "name": "@sivarajans/heap-sort-desc",
+  "version": "1.0.1",
+  "description": "Heap sort descending",
+  "main": "HeapSort Desc by MaxHeap.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "keywords": [
+    "Heap",
+    "sort",
+    "descending"
+  ],
+  "author": "sivarajan sivanesan",
+  "license": "ISC"
+}

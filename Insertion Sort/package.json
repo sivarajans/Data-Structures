@@ -1,0 +1,15 @@
+{
+  "name": "@sivarajans/insertion-sort",
+  "version": "1.0.1",
+  "description": "Insertion sort",
+  "main": "Insertion Sort.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "keywords": [
+    "Insertion",
+    "sort"
+  ],
+  "author": "sivarajan sivanesan",
+  "license": "ISC"
+}

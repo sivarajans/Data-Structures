@@ -1,6 +1,6 @@
 {
   "name": "@sivarajans/heap-sort-asc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Heap sort ascending",
   "main": "HeapSort Asc by MinHeap.js",
   "type": "module",

@@ -1,6 +1,6 @@
 {
   "name": "@sivarajans/linked-list",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Linked list implementation in javascript",
   "main": "Linked List.js",
   "type": "module",

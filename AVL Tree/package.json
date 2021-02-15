@@ -1,6 +1,6 @@
 {
   "name": "@sivarajans/self-balancing-binary-tree",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "It is a binary tree that is balanced automatically when node insertion or removal takes place.",
   "main": "AVL Tree Or Self Balancing Binary Tree.js",

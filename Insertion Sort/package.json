@@ -1,6 +1,6 @@
 {
   "name": "@sivarajans/insertion-sort",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Insertion sort",
   "main": "Insertion Sort.js",
   "type": "module",

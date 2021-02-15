@@ -1,6 +1,6 @@
 {
   "name": "@sivarajans/queue",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "queue implementation in javascript using array",
   "main": "Queue.js",
   "type": "module",

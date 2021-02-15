@@ -1,6 +1,4 @@
 == Pure Javascript Functions
 
-TIP: Just creating pure functions that would help developers. +
-As of now just download the file you need and use it. :)  +
-I will create these as packages soon.
+Just pure functions that would help developers.
 

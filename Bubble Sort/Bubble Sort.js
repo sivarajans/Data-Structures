@@ -1,12 +1,7 @@
 /*
 Bubble Sort - Compare adjuscent elements and swap until sorted.
 */
-
-
-let input = [20, 23, 2, 567, 12, 1, 97, 25, 15, 3, 8];
-console.log('given array', input);
-
-function BubbleSort(a) {
+export default function BubbleSort(a) {
     if (a.length <= 1) return;
     let iterationTaken = 0;
     let swapped;
@@ -33,7 +28,3 @@ function swap(a, i, j) {
     a[i] = a[j];
     a[j] = temp;
 }
-
-let it = BubbleSort(input);
-console.log('bubble sorted', input);
-console.log('iteration taken', it);

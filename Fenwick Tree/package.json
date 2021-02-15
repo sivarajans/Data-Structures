@@ -1,0 +1,15 @@
+{
+  "name": "@sivarajans/fenwick-tree",
+  "version": "1.0.0",
+  "description": "Fenwick tree",
+  "main": "Fenwick Tree.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "keywords": [
+    "Fenwick",
+    "tree"
+  ],
+  "author": "Sivarajan Sivanesan",
+  "license": "ISC"
+}

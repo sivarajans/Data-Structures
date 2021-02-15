@@ -1,5 +1,5 @@
 {
-  "name": "binary-search-tree",
+  "name": "@sivarajans/binary-search-tree",
   "version": "1.0.0",
   "description": "Binary search tree",
   "main": "Binary Search Tree.js",

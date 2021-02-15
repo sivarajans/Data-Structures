@@ -1,0 +1,15 @@
+{
+  "name": "@sivarajans/bubble-sort",
+  "version": "1.0.1",
+  "description": "Bubble sort",
+  "main": "Bubble Sort.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "keywords": [
+    "Bubble",
+    "sort"
+  ],
+  "author": "Sivarajan Sivanesan",
+  "license": "ISC"
+}

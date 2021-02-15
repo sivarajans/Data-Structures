@@ -12,7 +12,7 @@ Bits(n) - Least Significant Bits(n);
 Below example is Index 1 based.
 */
 
-class FenWickTree {
+export default class FenWickTree {
     // array of elements to add in initial fenwick tree.
     constructor(array) {
 
@@ -66,16 +66,3 @@ class FenWickTree {
     }
 
 }
-
-
-//Testing
-let source = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let tree = new FenWickTree(source);
-
-tree.add(5, 5);
-tree.add(7, 2);
-
-tree.set(8, 5);
-tree.set(6, 3);
-
-console.log('fenwick array', tree.fenwick);

@@ -2,7 +2,7 @@
 AVL - Self Balanced Tree - it is a binary tree that is balanced automatically
  when node insertion or removal takes place.
 
- Valid balance factor is -1, 0, 1
+ Valid balance factors are -1, 0, 1
 
  Balance Factor (BF) = Height Of Right Side - Height of Left Side.
 

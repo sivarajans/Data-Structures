@@ -4,8 +4,8 @@ Merge Sort - sorts an array by dividing each element as single element recursive
 export default function MergeSort(a, lb, ub) {
   if (lb < ub) { //stop when index are equal.
     let mid = Math.floor((lb + ub) / 2);
-    mergeSort(a, lb, mid);
-    mergeSort(a, mid + 1, ub);
+    MergeSort(a, lb, mid);
+    MergeSort(a, mid + 1, ub);
     divideAndConquer(a, lb, mid, ub);
   }
 

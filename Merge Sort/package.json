@@ -1,6 +1,6 @@
 {
   "name": "@sivarajans/merge-sort",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Merge sort impelementation",
   "main": "Merge Sort.js",
   "type": "module",

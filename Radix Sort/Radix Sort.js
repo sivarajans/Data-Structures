@@ -4,11 +4,7 @@ Sorting applied from LSB to MSB here as given is integer.
 Same can be done for string from MSB to LSB.
 */
 
-let input = [20, 23, 2, 567, 12, 1, 97, 324333, 25, 15, 3, 8];
-
-console.log('given array', input);
-
-function RadixSort(a) {
+export default function RadixSort(a) {
     if (a.length <= 1) return;
 
     // max length in an array for radical position movement
@@ -70,6 +66,5 @@ function getRadicalValue(radical, input) {
     return radPosValue;
 }
 
-RadixSort(input);
-console.log('radix sorted', input);
+
 

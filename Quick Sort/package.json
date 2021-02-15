@@ -1,0 +1,15 @@
+{
+  "name": "@sivarajans/quick-sort",
+  "version": "1.0.0",
+  "description": "Quick sort impelementation",
+  "main": "Quick Sort.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "keywords": [
+    "quick",
+    "sort"
+  ],
+  "author": "sivarajan sivanesan",
+  "license": "ISC"
+}

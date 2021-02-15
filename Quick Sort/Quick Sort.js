@@ -2,7 +2,7 @@
 Quick Sort - sorts the array using the pivot position.
 we can choose any one value as pivot, here I have chosen first element as pivot.
 */
-function QuickSort(a, lb, ub) {
+export default function QuickSort(a, lb, ub) {
   if (lb < ub) {
     
     // Returns the pivot position index that is moved to right position
@@ -40,9 +40,3 @@ function swap(a, i , j) {
 }
 
 
-//testing
-let arg = [10, 2, 20, 5, 1, 2001, 3];
-console.log('given array', arg);
-
-QuickSort(arg, 0 , arg.length - 1);
-console.log('Quick sorted', arg);

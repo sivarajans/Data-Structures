@@ -2,10 +2,7 @@
 Selection Sort - sorts an array by looking the minimum value's index and swapping to left position, and continue until last index recursively.
 */
 
-let input = [20, 23, 2, 567, 12, 1, 97];
-console.log('given array', input);
-
-function SelectionSort(a) {
+export default function SelectionSort(a) {
     if (a.length <= 1) return;
 
     for (let i = 0; i < a.length; i++) {
@@ -29,5 +26,3 @@ function swap(a, i, j) {
     a[j] = temp;
 }
 
-SelectionSort(input);
-console.log('selection sorted', input);

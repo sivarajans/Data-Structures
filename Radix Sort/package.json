@@ -1,0 +1,15 @@
+{
+  "name": "@sivarajans/radix-sort",
+  "version": "1.0.0",
+  "description": "Radix sort impelementation",
+  "main": "Radix Sort.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "keywords": [
+    "radix",
+    "sort"
+  ],
+  "author": "sivarajan sivanesan",
+  "license": "ISC"
+}

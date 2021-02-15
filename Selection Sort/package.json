@@ -1,0 +1,15 @@
+{
+  "name": "@sivarajans/selection-sort",
+  "version": "1.0.0",
+  "description": "Selection sort impelementation",
+  "main": "Selection Sort.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "keywords": [
+    "selection",
+    "sort"
+  ],
+  "author": "sivarajan sivanesan",
+  "license": "ISC"
+}

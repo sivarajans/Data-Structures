@@ -1,0 +1,15 @@
+{
+  "name": "@sivarajans/merge-sort",
+  "version": "1.0.0",
+  "description": "Merge sort impelementation",
+  "main": "Merge Sort.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "keywords": [
+    "Merge",
+    "sort"
+  ],
+  "author": "sivarajan sivanesan",
+  "license": "ISC"
+}

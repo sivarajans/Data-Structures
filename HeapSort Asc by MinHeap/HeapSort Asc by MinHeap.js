@@ -14,7 +14,7 @@ Child-2 of parent = 2i + 2
 */
 
 
-function HeapSort(a) {
+export default function HeapSort(a) {
     let sorted = [];
 
     // first time to do min heap invarient
@@ -63,9 +63,3 @@ function swap(a, i, j) {
     a[i] = a[j];
     a[j] = temp;
 }
-
-
-let givenTree = [44, 22, 34, 66, 33, 17, 1, 0, 5];
-let sorted = HeapSort(givenTree);
-
-console.log('sorted', sorted);

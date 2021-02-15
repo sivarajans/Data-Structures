@@ -1,0 +1,11 @@
+{
+  "name": "@sivarajans/queue",
+  "version": "1.0.0",
+  "description": "queue implementation in javascript using array",
+  "main": "Queue.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sivarajan Sivanesan",
+  "license": "ISC"
+}

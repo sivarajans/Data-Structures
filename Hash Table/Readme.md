@@ -37,4 +37,3 @@ when load factor reaches its limit, hastable needs to be resized to next set of 
 ## Installation
 `npm i @sivarajans/hash-table`
 Note - only seperate chaining available in this module
-*/

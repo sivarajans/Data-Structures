@@ -1,0 +1,30 @@
+{
+  "name": "@sivarajans/hash-table",
+  "version": "1.0.0",
+  "description": "Hash table - Seperate chaining, Open addressing (linear probing, quadratic probing, double hashing)",
+  "main": "Hash Table.js",
+  "type": "module",
+  "scripts": {
+    "test": "test.js"
+  },
+  "keywords": [
+    "Hash",
+    "table",
+    "-",
+    "Seperate",
+    "chaining",
+    "Open",
+    "addressing",
+    "(linear",
+    "probing",
+    "quadratic",
+    "probing",
+    "double",
+    "hashing)"
+  ],
+  "author": "sivarajan sivanesan",
+  "license": "ISC",
+  "dependencies": {
+    "@sivarajans/linked-list": "^1.0.1"
+  }
+}

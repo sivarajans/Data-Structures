@@ -11,6 +11,7 @@ P(x) - is a probe function to fix when same index found - used only in Open Addr
 
 
 2. Open Addressing [*NOT PROVIDED IN THE SOLUTION*]
+
     Open addressing searches for free index in array and fill it.
     There are 3 options available here.
 
@@ -18,7 +19,7 @@ P(x) - is a probe function to fix when same index found - used only in Open Addr
         for ex: *ax + b* (a & b are constants)
 
     b. Quadratic probing
-        for ex: *ax2 + bx + c* (a, b, c are constants)   
+        for ex: *ax<sup>2</sup> + bx + c* (a, b, c are constants)   
 
     c. Double hashing
         for ex: *h1(x) + h2(y)* (h1 & h2 are hashing on key and result respectively)
@@ -30,7 +31,7 @@ Maintain *Greatest Common Denominator(N, a) = 1*
 where N - total elements, a - constant in h(x) = ax and Prime Numbers.
 
 *Load Factor  = a / N*
-when load factor reaches its limit, hastable needs to be resized to next set of prime numbers and values should refilled to maintain order.
+when load factor reaches its limit, hastable needs to be resized to next set of prime numbers and values should get refilled to maintain order.
 
 
 ## Installation

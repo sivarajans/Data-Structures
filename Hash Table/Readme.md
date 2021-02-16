@@ -1,8 +1,8 @@
 # HashTable
-It is a way to order data in an memory using the hash function and key.
+It is a way to order data in memory using the hash function and key.
 
 Hash(x) - is a hash function, x is a key.
-P(x) - is a probe function to fix when same index found used only in Open Addressing.
+P(x) - is a probe function to fix when same index found - used only in Open Addressing.
 
 ## Same key fix options
 

@@ -1,4 +1,7 @@
 == Pure Javascript Functions
 
-Just pure functions that would help developers.
+Pure javascript functions are given as modules.
+Ready for use by `npm i`
+
+Navigate to each folder and find information of each modules.
 

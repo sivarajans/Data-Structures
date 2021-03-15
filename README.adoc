@@ -1,6 +1,6 @@
 == Pure Javascript Functions
 
-Pure javascript functions are given as modules.
+Data strucutres are provided as packages.
 Ready for use by `npm i`
 
 Navigate to each folder and find information of each modules.

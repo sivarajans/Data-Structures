@@ -8,7 +8,7 @@ Max Heap Invarient data structure is used to sort.
 ## Zero Based Index Formula:
 *All the parent = floor(n / 2) - 1* -- here n is total elements.
 
-*Child-1 of parent = 2i + 1* -- here i is index (0 based)
+*Child-1 of parent = 2i + 1* -- here i is index (0 based)  
 *Child-2 of parent = 2i + 2*
 
 

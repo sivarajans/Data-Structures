@@ -1,6 +1,6 @@
 {
   "name": "@sivarajans/hash-table",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Hash table - Seperate chaining, Open addressing (linear probing, quadratic probing, double hashing)",
   "main": "Hash Table.js",
   "type": "module",

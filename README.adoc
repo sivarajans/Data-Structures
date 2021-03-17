@@ -1,7 +1,13 @@
 == Data Structures
 
-Data strucutres are provided as packages.
-Ready for use by `npm i`
+Data strucutres are provided as packages.  
 
-Navigate to each folder and find information of each modules.
+Navigate to each folder and find information of each modules.      +
+Each structure can be installed as package.
 
+
+=== Build using Babel
+`npm run build`
+
+=== Test
+`npm test`

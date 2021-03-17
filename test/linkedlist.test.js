@@ -1,6 +1,16 @@
-import LinkedList from '../src/Linked List/Linked List';
+const LinkedList = require('../lib/Linked List/Linked List').default;
+var assert = require('assert');
 
-let ll = new LinkedList();
+describe("Linked List", () => {
+    it("verify linked list", () => {
 
-ll.add(3);
-ll.add(5);
+        let ll = new LinkedList();
+
+        ll.add(3);
+        ll.add(5);
+        assert.strictEqual(ll.size, 2);
+        assert.strictEqual(ll.head.data, 3);
+        assert.strictEqual(ll.tail.data, 5);
+    })
+})
+

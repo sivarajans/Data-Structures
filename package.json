@@ -10,7 +10,7 @@
     "mocha": "^8.3.2"
   },
   "scripts": {
-    "build": "babel src -d lib",
+    "build": "babel src --ignore */node_modules -d lib",
     "test": "mocha"
   },
   "repository": {

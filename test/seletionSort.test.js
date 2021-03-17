@@ -1,7 +1,13 @@
-import SelectionSort from '../src/Selection Sort/Selection Sort';
+const SelectionSort = require('../lib/Selection Sort/Selection Sort').default;
+var assert = require('assert');
 
-let input = [20, 23, 2, 567, 12, 1, 97];
-console.log('given array', input);
+describe("Selection sort", () => {
+    it("verify selection sort", () => {
+        let input = [20, 23, 2, 567, 12, 1, 97];
+        SelectionSort(input);
+        
+        assert.strictEqual(JSON.stringify(input), "[1,2,12,20,23,97,567]");
+    })
+})
 
-SelectionSort(input);
-console.log('selection sorted', input);
+

@@ -1,5 +1,5 @@
 {
-  "name": "data-structures",
+  "name": "@sivarajans/data-structures",
   "version": "1.0.0",
   "description": "data structures",
   "dependencies": {},
@@ -11,6 +11,9 @@
     "@babel/preset-env": "^7.13.10",
     "babel-preset-minify": "^0.5.1",
     "mocha": "^8.3.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "build": "babel src --ignore */node_modules -d lib --copy-files",

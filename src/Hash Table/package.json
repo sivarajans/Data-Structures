@@ -25,6 +25,6 @@
   "author": "sivarajan sivanesan",
   "license": "ISC",
   "dependencies": {
-    "@sivarajans/linked-list": "^1.0.1"
+    "@sivarajans/linked-list": "^1.0.2"
   }
 }

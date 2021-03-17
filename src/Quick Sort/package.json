@@ -1,12 +1,8 @@
 {
   "name": "@sivarajans/quick-sort",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Quick sort impelementation",
   "main": "Quick Sort.js",
-  "type": "module",
-  "scripts": {
-    "test": "test.js"
-  },
   "keywords": [
     "quick",
     "sort"

@@ -1,12 +1,8 @@
 {
   "name": "@sivarajans/bubble-sort",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Bubble sort",
   "main": "Bubble Sort.js",
-  "type": "module",
-  "scripts": {
-    "test": "test.js"
-  },
   "keywords": [
     "Bubble",
     "sort"

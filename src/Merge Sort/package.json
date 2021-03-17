@@ -1,12 +1,8 @@
 {
   "name": "@sivarajans/merge-sort",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Merge sort impelementation",
   "main": "Merge Sort.js",
-  "type": "module",
-  "scripts": {
-    "test": "test.js"
-  },
   "keywords": [
     "Merge",
     "sort"

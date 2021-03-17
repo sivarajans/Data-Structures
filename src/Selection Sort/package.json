@@ -1,12 +1,8 @@
 {
   "name": "@sivarajans/selection-sort",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Selection sort impelementation",
   "main": "Selection Sort.js",
-  "type": "module",
-  "scripts": {
-    "test": "test.js"
-  },
   "keywords": [
     "selection",
     "sort"

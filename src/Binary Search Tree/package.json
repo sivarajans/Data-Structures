@@ -1,12 +1,8 @@
 {
   "name": "@sivarajans/binary-search-tree",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Binary search tree",
   "main": "Binary Search Tree.js",
-  "type": "module",
-  "scripts": {
-    "test": "test.js"
-  },
   "keywords": [
     "Binary",
     "Search",

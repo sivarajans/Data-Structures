@@ -1,0 +1,26 @@
+{
+  "name": "data-structures",
+  "version": "1.0.0",
+  "description": "data structures",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "mocha": "^8.3.2"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sivarajans/Data-Structures.git"
+  },
+  "author": "sivarajan sivanesan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sivarajans/Data-Structures/issues"
+  },
+  "homepage": "https://github.com/sivarajans/Data-Structures#readme"
+}

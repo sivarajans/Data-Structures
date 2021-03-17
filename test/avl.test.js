@@ -2,6 +2,7 @@ import SelfBalancedTree from './AVL Tree Or Self Balancing Binary Tree';
 /*------------------------------------
 TESTING AREA.
 ------------------------------------*/
+
 // 1. right right case.
 let tree1 = new SelfBalancedTree();
 tree1.add(new TreeNode(10));

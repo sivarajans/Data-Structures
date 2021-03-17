@@ -2,10 +2,9 @@
   "name": "data-structures",
   "version": "1.0.0",
   "description": "data structures",
-  "dependencies": {
-    "@sivarajans/linked-list": "^1.0.2"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@sivarajans/linked-list": "^1.0.2",
     "@babel/cli": "^7.13.10",
     "@babel/core": "^7.13.10",
     "@babel/preset-env": "^7.13.10",
@@ -13,7 +12,7 @@
     "mocha": "^8.3.2"
   },
   "scripts": {
-    "build": "babel src --ignore */node_modules -d lib",
+    "build": "babel src --ignore */node_modules -d lib --copy-files",
     "test": "mocha"
   },
   "repository": {

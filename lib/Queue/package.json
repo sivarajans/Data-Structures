@@ -1,0 +1,8 @@
+{
+  "name": "@sivarajans/queue",
+  "version": "1.0.5",
+  "description": "queue implementation in javascript using array",
+  "main": "Queue.js",
+  "author": "Sivarajan Sivanesan",
+  "license": "ISC"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@sivarajans/linked-list",
+  "version": "1.0.2",
+  "description": "Linked list implementation in javascript",
+  "main": "Linked List.js",
+  "keywords": [
+    "Linked",
+    "list"
+  ],
+  "author": "sivarajan sivanesan",
+  "license": "ISC"
+}

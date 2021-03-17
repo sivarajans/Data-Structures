@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "data structures",
   "dependencies": {},
+  "main": "lib/index.js",
   "devDependencies": {
     "@sivarajans/linked-list": "^1.0.2",
     "@babel/cli": "^7.13.10",

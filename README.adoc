@@ -1,4 +1,4 @@
-== Pure Javascript Functions
+== Data Structures
 
 Data strucutres are provided as packages.
 Ready for use by `npm i`

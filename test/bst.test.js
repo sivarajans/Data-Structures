@@ -1,5 +1,5 @@
 
-import BinarySearchTree from './Binary Search Tree';
+import BinarySearchTree from '../src/Binary Search Tree/Binary Search Tree';
 
 let tree = new BinarySearchTree([5, 9, 3, 2, 4, 7, 8, 6, 11, 13, 18]);
 

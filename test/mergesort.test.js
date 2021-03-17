@@ -1,4 +1,4 @@
-import MergeSort from './Merge Sort';
+import MergeSort from '../src/Merge Sort/Merge Sort';
 
 //testing
 let arg = [10, 2, 20, 5, 1, 2001, 3]

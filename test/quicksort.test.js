@@ -1,4 +1,4 @@
-import QuickSort from './Quick Sort';
+import QuickSort from '../src/Quick Sort/Quick Sort';
 
 //testing
 let arg = [10, 2, 20, 5, 1, 2001, 3];

@@ -1,5 +1,5 @@
 
-import Queue from './Queue';
+import Queue from '../src/Queue/Queue';
 // Testing
 let queue = new Queue();
 queue.enqueue(1);

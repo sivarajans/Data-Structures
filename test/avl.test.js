@@ -1,4 +1,4 @@
-import SelfBalancedTree from './AVL Tree Or Self Balancing Binary Tree';
+import SelfBalancedTree from '../src/AVL Tree/AVL Tree Or Self Balancing Binary Tree';
 /*------------------------------------
 TESTING AREA.
 ------------------------------------*/

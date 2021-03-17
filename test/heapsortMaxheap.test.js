@@ -1,5 +1,5 @@
 
-import HeapSortDesc from './HeapSort Desc by MaxHeap';
+import HeapSortDesc from '../src/HeapSort Desc by MaxHeap/HeapSort Desc by MaxHeap';
 
 let givenTree = [15, 5, 20, 1, 17, 10, 30];
 let sorted = HeapSortDesc(givenTree);

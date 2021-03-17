@@ -1,4 +1,4 @@
-import HashTable from './Hash Table';
+import HashTable from '../src/Hash Table/Hash Table';
 
 
 let hashtable = new HashTable(10);

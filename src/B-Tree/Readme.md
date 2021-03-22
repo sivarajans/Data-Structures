@@ -1,7 +1,8 @@
  
 ## B-Tree
 It is a self balacning binary search tree, allows insertion, deletion, reading all in log(n) time.  
-Used in disk storage, database storage and bulk storage requirements.
+Used in disk storage, database storage and bulk storage requirements.  
+`B+ Tree` - addition to the b-tree, b+ tree will have all the keys in leaf node, maintaining search indexes in root and internal nodes.
 
 ### Properties
 1. Can have multiple _key_ in same node.

@@ -17,6 +17,11 @@ Minimum Keys = `floor(m/2) - 1`
 Minimum Children = `floor(m/2)`  
 `Root` can have 1 key as miniumum  
 
+### Insertion Rules
+1. Insertion should happen in leaf always keeping ascending order.
+2. Bubble up if key length is more than maximum allowed.
+3. Bubbled also bubble recursively until b-tree satisified.
+
 ### Deletion Rules
 #### If Node is Leaf node
 1. delete directly if min key satisfied. 

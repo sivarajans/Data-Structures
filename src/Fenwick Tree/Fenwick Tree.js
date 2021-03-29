@@ -35,9 +35,9 @@ export default class FenWickTree {
     set(index, value) {
 
         let currentSum = this.rangeSum(index, index);
-        let propogate = value - currentSum;
+        let propagate = value - currentSum;
 
-        this.add(index, propogate);
+        this.add(index, propagate);
     }
 
     prefixSum(untilIndex) {

@@ -1,6 +1,6 @@
 {
   "name": "@sivarajans/data-structures",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "data structures",
   "dependencies": {},
   "main": "lib/index.js",

@@ -20,33 +20,43 @@ export class TreeNode {
 }
 export default class SelfBalancedTree {
 
-    constructor() {
+    constructor(array) {
         this.root = null;
         this.size = 0;
+        if (array?.length > 0) {
+            array.forEach(element => {
+                this.add(element);
+            });
+        }
     }
 
-    add(node) {
+    add(value) {
+        let node = new TreeNode(value);
         if (this.root == null)
             this.root = node;
         else {
             this._add(this.root, node);
+            this.root = this.balancing(this.root);
         }
         this.size++;
-        this.balancing(this.root);
     }
 
-    _add(root, node) {
-        if (node.value < root.value) {
-            if (root.left == null)
-                root.left = node;
-            else
-                this._add(root.left, node);
+    _add(parent, node) {
+        if (node.value < parent.value) {
+            if (parent.left == null)
+                parent.left = node;
+            else {
+                this._add(parent.left, node);
+                parent.left = this.balancing(parent.left);
+            }
         }
-        else if (node.value > root.value) {
-            if (root.right == null)
-                root.right = node;
-            else
-                this._add(root.right, node);
+        else if (node.value > parent.value) {
+            if (parent.right == null)
+                parent.right = node;
+            else {
+                this._add(parent.right, node);
+                parent.right = this.balancing(parent.right);
+            }
         }
     }
 
@@ -62,21 +72,22 @@ export default class SelfBalancedTree {
         if (bf == -2) {
             let lf = this.findBalanceFactor(node.left);
             if (lf <= -1) {
-                this.leftLeftCase(node);
+                return this.leftLeftCase(node);
             }
             else if (lf >= 1) {
-                this.leftRightCase(node);
+                return this.leftRightCase(node);
             }
         }
         else if (bf == 2) {
             let rf = this.findBalanceFactor(node.right);
             if (rf <= -1) {
-                this.rightLeftCase(node);
+                return this.rightLeftCase(node);
             }
             else if (rf >= 1) {
-                this.rightRightCase(node);
+                return this.rightRightCase(node);
             }
         }
+        return node;
     }
 
     depthOfNode(node) {
@@ -88,21 +99,21 @@ export default class SelfBalancedTree {
 
 
     leftLeftCase(node) {
-        this.root = this.rightRotation(node);
+        return this.rightRotation(node);
     }
 
     leftRightCase(node) {
         node.left = this.leftRotation(node.left);
-        this.leftLeftCase(node);
+        return this.leftLeftCase(node);
     }
 
     rightRightCase(node) {
-        this.root = this.leftRotation(node);
+        return this.leftRotation(node);
     }
 
     rightLeftCase(node) {
         node.right = this.rightRotation(node.right);
-        this.rightRightCase(node);
+        return this.rightRightCase(node);
     }
 
 

@@ -47,3 +47,52 @@ function divideAndConquer(a, lb, mid, ub) {
 }
 
 
+
+//Another version
+// function mergeSort(array, start, end) {
+//     if (start == end) return;
+//     let mid = Math.floor((end - start) / 2) + start;
+    
+//     mergeSort(array, start, mid);
+//     mergeSort(array, mid + 1, end)
+//     divideAndConquer(array, start, mid, end);
+// }
+
+// function divideAndConquer(array, start, mid, end) {
+//     let i = start;
+//     let j = mid + 1;
+//     let ordered = [];
+//     let orderedIx = start;
+//     while(i <= mid && j <= end) {
+        
+//         if (array[i] > array[j]) {
+//             ordered[orderedIx++] = array[j++];
+//         }
+//         else { 
+//             ordered[orderedIx++] = array[i++];
+//         }
+//     }
+//     while(i <= mid) {
+//         ordered[orderedIx++] = array[i++];
+//     }
+//     while(j <= end) {
+//         ordered[orderedIx++] = array[j++];
+//     }
+
+//     //copy to array
+//     for(let m = start; m <= end; m++) {
+//         array[m] = ordered[m];
+//     }
+// } 
+
+// function swap(array, i, j) {
+//     let t = array[i];
+//     array[i] = array[j];
+//     array[j] = t;
+// }
+
+
+
+// let source = [10, 20 ,30, 5, 15, 25, 1, 0, 233];
+// mergeSort(source, 0, source.length - 1);
+// console.log(source);
